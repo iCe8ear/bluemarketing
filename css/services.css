@@ -35,7 +35,39 @@
     border-radius: 8px;
 }
  
+.services__card{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px 20px;
+    width: 277px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 5px;
+}
 
+.desc__h{
+    font-family: 'Rubik';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #323232;
+    margin-bottom: 5px;
+}
+
+.desc__p{
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 13px;
+    color: #000000;
+}
+
+.services__wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
 
 
 
